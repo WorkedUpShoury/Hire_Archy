@@ -144,7 +144,7 @@ footer {
         <!-- Main CTA -->
         <div class="text-center my-5 animate__animated animate__fadeIn animate__delay-1s">
             <a href="register.jsp" class="btn btn-primary btn-lg mx-2 animate__animated animate__pulse animate__infinite">
-                <i class="fas fa-user-plus me-2"></i>Register Now
+                <i class="fas fa-user-plus me-2"></i>Guest Login
             </a>
             <a href="login.jsp" class="btn btn-secondary btn-lg mx-2">
                 <i class="fas fa-sign-in-alt me-2"></i>Login
