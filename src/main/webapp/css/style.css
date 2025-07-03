@@ -1,0 +1,120 @@
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Container to center the content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Job Post Card */
+.card {
+    background-color: #1f1f1f;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Job Title */
+.job-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/* Company Info */
+.company-info {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #7f8c8d;
+}
+
+.company-name {
+    font-weight: bold;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h4 {
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+/* Unordered List for Requirements and Benefits */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Apply Button */
+.btn-apply {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-apply:hover {
+    background-color: #0b5ed7;
+    color: white;
+}
+
+/* Input and Form Styles */
+.input-group {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    background-color: #1f1f1f;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-control::placeholder {
+    color: #bbb;
+}
+
+.input-group-text {
+    background-color: #1f1f1f;
+    color: white;
+    border: none;
+}
+
+/* Button for Primary Action */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    color: white;
+}
