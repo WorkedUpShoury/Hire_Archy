@@ -19,6 +19,6 @@ public class LoginServlet extends HttpServlet {
         session.setAttribute("userId", 1); // Dummy user ID
         
         // Directly redirect to seekerDashboard
-        response.sendRedirect("seekerDashboard");
+        response.sendRedirect("seekerDashboard.jsp");
     }
 }
